@@ -3,6 +3,8 @@
 [1. ANN](#ann)
 
 [2. CNN](#cnn)
+
+[2. RNN](#rnn)
 * * *
 # ANN
 ### 은행의 데이터 세트
@@ -23,3 +25,17 @@ CNN은 데이터의 특징을 추출하여 특징들의 패턴을 파악하는 �
 ![cat_or_dog_1](https://user-images.githubusercontent.com/118944645/208114637-d5a8ebf6-cf86-458c-a316-b813286eb91c.jpg)
 
 8000개의 사진을 분류하는 훈련을 시킨 후 위의 사진을 보여주고 개인지 고양이인지 평가를 해본다.
+* * *
+# RNN
+### 구글 주가를 예측하기
+
+미래를 예측하기는 어렵지만 상승과 하락 추세를 예측해본다.
+
+LSTM을 만들기, 드롭아웃 정규화를 통해 과적합을 없애보려고 한다.
+
+![afs](https://user-images.githubusercontent.com/118944645/208302281-08b94e67-808b-4937-b440-c06d04cb2f4e.png)
+
+![zvx](https://user-images.githubusercontent.com/118944645/208302305-b3e10a7d-9f5e-4378-b1f9-193041ceedb1.png)
+
+
+4년 데이터 2017넌 1월 주가를 예측 해본다. 예측값과 실제 1월 주가를 비교해보자.
